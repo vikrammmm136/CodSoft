@@ -1,0 +1,17 @@
+body { margin:0; display:flex; justify-content:center; align-items:center; height:100vh; background:#1a1a2e; }
+
+.calc { background:#16213e; padding:20px; border-radius:20px; width:260px; }
+
+#display { width:100%; padding:15px; font-size:28px; text-align:right; background:#0f3460; color:#fff; border:none; border-radius:10px; margin-bottom:15px; }
+
+.keys { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+
+button { padding:15px; font-size:18px; border:none; border-radius:10px; background:#e94560; color:#fff; cursor:pointer; }
+
+button:hover { opacity:0.8; }
+
+.op { background:#533483; }
+
+.eq { background:#0f3460; }
+
+.zero { grid-column:span 2; }
