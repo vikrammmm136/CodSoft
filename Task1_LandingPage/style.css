@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+nav{
+    background:#1e3a8a;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+.hero{
+    text-align:center;
+    padding:100px;
+    background:#dbeafe;
+}
+
+button{
+    padding:10px 20px;
+    background:#2563eb;
+    color:white;
+    border:none;
+}
+
+.about{
+    text-align:center;
+    padding:40px;
+}
+
+.places{
+    text-align:center;
+}
+
+.card{
+    background:#f3f4f6;
+    width:200px;
+    padding:20px;
+    margin:15px;
+    display:inline-block;
+    border-radius:12px;
+}
+
+footer{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
